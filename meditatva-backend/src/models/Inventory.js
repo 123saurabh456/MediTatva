@@ -18,7 +18,8 @@ const InventorySchema = new mongoose.Schema({
     trim: true
   },
   expiryDate: {
-    type: Date
+    type: Date,
+    required: true
   },
   reorderLevel: { 
     type: Number, 
